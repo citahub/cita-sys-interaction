@@ -7,6 +7,6 @@ interface IVersionManager {
     function setVersion(uint32 _version) external;
     function setProtocolVersion(uint32 _version) external;
     /// @notice Deprecated. Check the setProtocolVersion
-    function getVerison() external returns (uint32);
-    function getProtocolVerison() external returns (uint32);
+    function getVersion() external returns (uint32);
+    function getProtocolVersion() external returns (uint32);
 }
