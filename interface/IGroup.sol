@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of group
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IGroup {
     function queryName() external returns (bytes32);
 

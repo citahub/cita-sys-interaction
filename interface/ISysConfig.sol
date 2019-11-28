@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of system config
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface ISysConfig {
     /// @notice Update current chain name
     function setChainName(string) external;

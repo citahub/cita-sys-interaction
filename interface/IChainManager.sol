@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of chain management
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 /// @dev TODO chain manager's assembly
 interface IChainManager {
     function getChainId() external returns (uint);

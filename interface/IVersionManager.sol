@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of version manager
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IVersionManager {
     /// @notice Deprecated. Check the setProtocolVersion
     function setVersion(uint32 _version) external;

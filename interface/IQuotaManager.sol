@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of quota_manager
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IQuotaManager {
 
     event DefaultAqlSetted(uint indexed _value, address indexed _sender);

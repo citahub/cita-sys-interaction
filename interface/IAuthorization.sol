@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of authorization
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IAuthorization {
     /// @notice only permission management
     function setAuth(address _account, address _permission) external returns (bool);

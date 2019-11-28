@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of role management
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IRoleManagement {
     function newRole(bytes32 _name, address[] _permissions) external returns (address);
 
