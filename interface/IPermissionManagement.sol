@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of permission management
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IPermissionManagement {
     function newPermission(bytes32 _name, address[] _conts, bytes4[] _funcs) external returns (address);
 

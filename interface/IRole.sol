@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of role
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IRole {
 
     /// @notice only role management

@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of role authorization
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IRoleAuth {
     /// @notice only role management
     function setRole(address _account, address _role) external returns (bool);

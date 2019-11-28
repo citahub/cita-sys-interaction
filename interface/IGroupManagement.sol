@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of group management
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IGroupManagement {
     function newGroup(address _origin, bytes32 _name, address[] _accounts) external returns (address);
 

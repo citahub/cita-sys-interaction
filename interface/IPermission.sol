@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of permission
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IPermission {
     /// @notice only permission management
     function addResources(address[] _conts, bytes4[] _funcs) external returns (bool);

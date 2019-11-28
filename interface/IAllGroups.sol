@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
 /// @title The interface of all groups
-/// @author ["Cryptape Technologies <contact@cryptape.com>"]
+/// @author ["Rivtower Technologies <contact@rivtower.com>"]
 interface IAllGroups {
     /// @notice only group management
     function insert(address _group) external returns (bool);
